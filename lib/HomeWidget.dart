@@ -1,20 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:parterspersonnel/FirstWidget.dart';
 import 'package:parterspersonnel/ForthWidget.dart';
-import 'package:parterspersonnel/NotificationsWidget.dart';
 import 'package:parterspersonnel/SecondWidget.dart';
 import 'package:parterspersonnel/ThirdWidget.dart';
 
-
-
-// class HomeWidget extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Center(
-//       child: Text('Home Widget Content'),
-//     );
-//   }
-// }
 
 class HomeWidget extends StatefulWidget {
   @override
@@ -81,7 +70,7 @@ class _HomeWidgetState extends State<HomeWidget> {
 
                 },
                 child: Text(
-                    'Next',
+                    'NEXT',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                   ),
