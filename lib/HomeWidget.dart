@@ -15,6 +15,7 @@ class _HomeWidgetState extends State<HomeWidget> {
   int _currentIndex = 0;
 
   List<Widget> _widgets = [
+    ForthWidget(),
     FirstWidget(),
     SecondWidget(),
     ThirdWidget(),

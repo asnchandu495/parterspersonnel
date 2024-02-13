@@ -51,7 +51,7 @@ class _FirstWidgetState extends State<FirstWidget> {
         Container(
           // color: Colors.blue,
           alignment: Alignment.centerLeft,
-          padding: const EdgeInsets.fromLTRB(16, 20, 16, 20),
+          padding: const EdgeInsets.fromLTRB(16, 10, 16, 5),
           child: Text(
             subString,
             style: TextStyle(
